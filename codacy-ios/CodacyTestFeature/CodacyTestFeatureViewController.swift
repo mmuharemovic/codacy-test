@@ -9,10 +9,13 @@
 import UIKit
 
 class CodacyTestFeatureViewController: UIViewController {
-
+    var x = 0
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        x = 2 * x + 1
+        x = 2 * x + 1
+        x = 2 * x + 1
+        x = 2 * x + 1
     }
 }
