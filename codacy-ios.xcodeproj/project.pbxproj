@@ -14,6 +14,8 @@
 		C245C4CE253C41B800B425F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C245C4CD253C41B800B425F0 /* Assets.xcassets */; };
 		C245C4D1253C41B800B425F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C245C4CF253C41B800B425F0 /* LaunchScreen.storyboard */; };
 		C245C4DC253C41B800B425F0 /* codacy_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C245C4DB253C41B800B425F0 /* codacy_iosTests.swift */; };
+		C245C4E9253C4AEE00B425F0 /* CodacyTestFeatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C245C4E7253C4AEE00B425F0 /* CodacyTestFeatureViewController.swift */; };
+		C245C4EA253C4AEE00B425F0 /* CodacyTestFeatureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C245C4E8253C4AEE00B425F0 /* CodacyTestFeatureViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		C245C4D7253C41B800B425F0 /* codacy-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "codacy-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C245C4DB253C41B800B425F0 /* codacy_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = codacy_iosTests.swift; sourceTree = "<group>"; };
 		C245C4DD253C41B800B425F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C245C4E7253C4AEE00B425F0 /* CodacyTestFeatureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodacyTestFeatureViewController.swift; sourceTree = "<group>"; };
+		C245C4E8253C4AEE00B425F0 /* CodacyTestFeatureViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CodacyTestFeatureViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 		C245C4C3253C41B700B425F0 /* codacy-ios */ = {
 			isa = PBXGroup;
 			children = (
+				C245C4E6253C4ACB00B425F0 /* CodacyTestFeature */,
 				C245C4C4253C41B700B425F0 /* AppDelegate.swift */,
 				C245C4C6253C41B700B425F0 /* SceneDelegate.swift */,
 				C245C4C8253C41B700B425F0 /* ViewController.swift */,
@@ -97,6 +102,15 @@
 				C245C4DD253C41B800B425F0 /* Info.plist */,
 			);
 			path = "codacy-iosTests";
+			sourceTree = "<group>";
+		};
+		C245C4E6253C4ACB00B425F0 /* CodacyTestFeature */ = {
+			isa = PBXGroup;
+			children = (
+				C245C4E7253C4AEE00B425F0 /* CodacyTestFeatureViewController.swift */,
+				C245C4E8253C4AEE00B425F0 /* CodacyTestFeatureViewController.xib */,
+			);
+			path = CodacyTestFeature;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,6 +196,7 @@
 			files = (
 				C245C4D1253C41B800B425F0 /* LaunchScreen.storyboard in Resources */,
 				C245C4CE253C41B800B425F0 /* Assets.xcassets in Resources */,
+				C245C4EA253C4AEE00B425F0 /* CodacyTestFeatureViewController.xib in Resources */,
 				C245C4CC253C41B700B425F0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -202,6 +217,7 @@
 			files = (
 				C245C4C9253C41B700B425F0 /* ViewController.swift in Sources */,
 				C245C4C5253C41B700B425F0 /* AppDelegate.swift in Sources */,
+				C245C4E9253C4AEE00B425F0 /* CodacyTestFeatureViewController.swift in Sources */,
 				C245C4C7253C41B700B425F0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
