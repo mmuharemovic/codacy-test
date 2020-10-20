@@ -21,5 +21,7 @@ class CodacyTestFeatureViewController: UIViewController {
         
         //Slack test
         //Slack test2
+        
+        x = x - 1
     }
 }
